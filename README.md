@@ -75,7 +75,7 @@ blue-team-detection-lab
 | Lab06 | Windows Persistence Detection | ✅ |
 | Lab07 | Threat Hunting | ⏳ |
 
----
+
 ---
 
 # 📸 Lab Highlights
