@@ -71,7 +71,60 @@ blue-team-detection-lab
 | Lab02 | Suspicious PowerShell Detection | ✅ |
 | Lab03 | LOLBins Detection | ✅ |
 | Lab04 | Phishing Investigation | ✅ |
-| Lab05 | Ransomware Investigation | ⏳ |
+| Lab05 | Ransomware Simulation | ✅ |
+| Lab06 | Windows Persistence Detection | ✅ |
+| Lab07 | Threat Hunting | ⏳ |
+
+---
+---
+
+# 📸 Lab Highlights
+
+## Lab02 – PowerShell Detection
+
+![PowerShell Sysmon Event](labs/lab02-powershell/screenshots/01-sysmon-process-creation.png)
+
+## Lab03 – LOLBins Detection
+
+![Certutil Sysmon Event](labs/lab03-lolbins/screenshots/01-sysmon-certutil-process-create.png)
+
+## Lab05 – Ransomware Simulation
+
+![Ransomware Simulation](labs/lab05-ransomware/screenshots/02-simulation.png)
+
+## Lab06 – Windows Persistence Detection
+
+![Run Key Detection](labs/lab06-windows%20persistence%20detection/screenshots/03-sysmon-runkey-details.png)
+
+---
+---
+
+# 🧠 Detection Content
+
+## Sigma Rules
+
+- Suspicious PowerShell Execution
+- Suspicious Certutil Usage
+- Suspicious BITSAdmin Usage
+- Suspicious Rundll32 Execution
+- Suspicious Regsvr32 Execution
+- Ransomware Related Process Execution
+- Registry Run Key Persistence
+
+## KQL Queries
+
+- PowerShell Detection
+- Certutil Detection
+- BITSAdmin Detection
+- Rundll32 Detection
+- Ransomware Process Detection
+- Registry Run Key Detection
+
+## Splunk Searches
+
+- Suspicious PowerShell
+- Ransomware Process Activity
+- Registry Run Key Persistence
 
 ---
 
