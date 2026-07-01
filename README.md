@@ -82,7 +82,7 @@ blue-team-detection-lab
 
 ## Lab02 – PowerShell Detection
 
-![PowerShell Sysmon Event](labs/lab02-powershell/screenshots/01-sysmon-process-creation.png)
+![PowerShell Sysmon Event](labs/lab02-powershell/screenshots/03-sysmon-process-creation.png)
 
 ## Lab03 – LOLBins Detection
 
