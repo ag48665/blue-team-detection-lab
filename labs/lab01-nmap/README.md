@@ -29,6 +29,17 @@ The objective of this investigation is to identify the attacker activity, determ
 | Network | VirtualBox Internal Network |
 
 ---
+## Evidence
+
+| Screenshot | Description |
+|------------|-------------|
+| 01-nmap-output.png | Full Nmap aggressive scan output |
+| 02-open-ports.png | Open ports and detected services |
+| 03-network-topology.png | Network topology view |
+| 04-host-details.png | Host information and OS detection |
+| 05-scan-summary.png | Scan summary |
+
+---
 
 ## Skills Demonstrated
 

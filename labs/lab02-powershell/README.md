@@ -72,10 +72,12 @@ Detection focuses on monitoring:
 
 ## Evidence
 
-See:
-
-- screenshots/
-- logs/
+| Screenshot | Description |
+|------------|-------------|
+| 01a-powershell-command.png | Executing PowerShell Get-Process |
+| 01b-powershell-command.png | Executing PowerShell Get-Service |
+| 02-sysmon-eventid1.png | Sysmon Operational Log |
+| 03-sysmon-process-creation.png | Event ID 1 Process Creation Details |
 
 ---
 
