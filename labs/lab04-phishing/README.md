@@ -36,10 +36,10 @@ The objective was to determine whether the email was malicious, identify phishin
 
 ## Evidence
 
-- Email headers
-- Email body
-- IOC analysis
-- Investigation report
+| Screenshot | Description |
+|------------|-------------|
+| 01-email-headers.png | Email headers |
+| 02-email-body.png | HTML phishing email body |
 
 ---
 

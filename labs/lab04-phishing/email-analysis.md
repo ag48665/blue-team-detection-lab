@@ -43,6 +43,16 @@ serverviro.com.co
 instead of a legitimate Microsoft or corporate domain.
 
 ---
+## Phishing Indicators
+
+- Sender domain differs from destination domain
+- HTML email with embedded hyperlink
+- Account verification theme
+- Sense of urgency
+- Generic greeting
+- External URL hidden behind a button
+
+---
 
 ## Risk Assessment
 

@@ -1,5 +1,9 @@
 # Recommendations
 
+- Enable Windows Defender Tamper Protection.
+- Audit Registry Run Keys regularly.
+
+---
 ## Prevention
 
 - Enable Sysmon Registry monitoring.

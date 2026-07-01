@@ -1,29 +1,24 @@
-# Indicators of Compromise
-
 ## Sender
 
 sues@nnwifi.com
 
-## Domain
+## Sender Domain
 
 nnwifi.com
 
-serverviro.com.co
+## Target Domain
 
-## URL
-
-https://serverviro.com.co/...
+servervirto.com.co
 
 ## Recipient
 
 brad@malware-traffic-analysis.net
 
+## URL
+
+https://servervirto.com.co/ed/trn/update
+
 ## IP Addresses
 
 94.100.31.27
-
 173.46.174.49
-
-## Verdict
-
-Malicious phishing email.

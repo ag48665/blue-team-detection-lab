@@ -6,21 +6,19 @@ HKCU\Software\Microsoft\Windows\CurrentVersion\Run
 
 ---
 
-## Registry Value
+## Registry IOC
 
-BlueTeamLab
-
----
-
-## Executable
-
-notepad.exe
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run\BlueTeamLab
 
 ---
 
 ## Process
 
 powershell.exe
+
+## Value
+
+notepad.exe
 
 ---
 
@@ -29,6 +27,7 @@ powershell.exe
 Event ID 13
 
 ---
+
 
 ## MITRE
 

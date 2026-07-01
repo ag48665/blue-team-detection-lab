@@ -84,6 +84,17 @@ instead of the sender's domain.
 This difference between the sender domain and destination domain is a common phishing indicator.
 
 ---
+## Email Authentication
+
+SPF: Not verified
+
+DKIM: Not present
+
+DMARC: Not verified
+
+No authentication results were available in the provided headers.
+
+---
 
 ## Phishing Indicators
 

@@ -9,6 +9,17 @@
 - Splunk
 
 ---
+## Detection Fields
+
+Monitor:
+
+- Event ID
+- Process Image
+- TargetObject
+- Registry Value
+- User
+
+---
 
 ## Detection Logic
 

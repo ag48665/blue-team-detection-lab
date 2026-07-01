@@ -27,6 +27,8 @@ Detect Windows persistence established through Registry Run Keys.
 
 ## Evidence
 
-- Registry Run Key created
-- Sysmon Event ID 13 captured
-- Screenshots included
+| Screenshot | Description |
+|------------|-------------|
+| 01-registry-run-key.png | PowerShell creates Registry Run Key |
+| 02-sysmon-registry-event13.png | Sysmon Event ID 13 detected registry modification |
+| 03-sysmon-runkey-details.png | Event details showing Run Key path and value |

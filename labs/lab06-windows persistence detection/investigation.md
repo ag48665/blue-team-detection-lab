@@ -17,6 +17,21 @@ BlueTeamLab = notepad.exe
 ```
 
 ---
+### Observed Process
+
+Process:
+powershell.exe
+
+Action:
+New-ItemProperty
+
+Target:
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+Value:
+BlueTeamLab = notepad.exe
+
+---
 
 ## Evidence
 
