@@ -97,7 +97,6 @@ blue-team-detection-lab
 ![Run Key Detection](labs/lab06-windows%20persistence%20detection/screenshots/03-sysmon-runkey-details.png)
 
 ---
----
 
 # 🧠 Detection Content
 
