@@ -1,17 +1,23 @@
-# MITRE ATT&CK Mapping
 
-Technique
+# MITRE ATT&CK
 
-T1595 - Active Scanning
+| Technique | ID |
+|------------|----|
+| Active Scanning | T1595 |
+| Network Service Discovery | T1046 |
+| Remote System Discovery | T1018 |
+| Gather Victim Network Information | T1590 |
 
-T1046 - Network Service Discovery
+## Tactics
 
-T1018 - Remote System Discovery
+- Reconnaissance
+- Discovery
 
-T1590 - Gather Victim Network Information
+## Detection
 
-Tactic
+Monitor:
 
-Reconnaissance
-
-Discovery
+- Multiple TCP SYN packets
+- Sequential destination ports
+- Service enumeration
+- OS fingerprinting attempts
