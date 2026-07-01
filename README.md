@@ -1,67 +1,123 @@
 # 🛡️ Blue Team Detection Lab
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2011-green)
 ![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+![Sigma](https://img.shields.io/badge/Sigma-Rules-blue)
+![KQL](https://img.shields.io/badge/KQL-Microsoft%20Sentinel-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
 
 ## 📖 About
 
-This repository contains hands-on Blue Team labs focused on:
+This repository contains practical Blue Team and Detection Engineering labs built on real Windows telemetry.
+
+The goal is to demonstrate hands-on experience in:
 
 - Security Operations Center (SOC)
-- Threat Hunting
 - Detection Engineering
+- Threat Hunting
 - Incident Response
-- Malware Analysis
-- Windows Forensics
+- Windows Event Log Analysis
+- Sysmon Analysis
 - MITRE ATT&CK Mapping
-- Sigma Rules
-- YARA Rules
-- KQL Queries
+- Sigma Rule Development
+- Microsoft Sentinel (KQL)
+- Splunk SPL
+- IOC Analysis
 
-Each lab contains:
+---
 
-- Objective
-- Attack simulation
-- Detection
-- Investigation
-- MITRE ATT&CK Mapping
-- Indicators of Compromise (IOCs)
-- Screenshots
-- Detection Rules
-- Lessons Learned
+## 🛠️ Technologies
+
+- Windows 11
+- Sysmon
+- Event Viewer
+- PowerShell
+- Nmap
+- Sigma
+- KQL
+- Splunk SPL
+- MITRE ATT&CK
 
 ---
 
 # 📂 Repository Structure
 
-```
+```text
 blue-team-detection-lab
 │
 ├── detections
+│   ├── sigma
+│   ├── kql
+│   ├── splunk
+│   └── yara
+│
 ├── labs
 ├── reports
 ├── screenshots
 ├── scripts
-├── docs
-└── assets
+└── docs
 ```
 
 ---
 
 # 🧪 Labs
 
-| Lab | Status |
-|------|--------|
-| Lab 01 - Nmap Reconnaissance | 🚧 |
-| Lab 02 - Suspicious PowerShell | 🚧 |
-| Lab 03 - Ransomware Detection | 🚧 |
-| Lab 04 - LOLBins Detection | 🚧 |
-| Lab 05 - Phishing Investigation | 🚧 |
+| Lab | Topic | Status |
+|------|-------|:------:|
+| Lab01 | Nmap Reconnaissance | ✅ |
+| Lab02 | Suspicious PowerShell Detection | ✅ |
+| Lab03 | LOLBins Detection | ✅ |
+| Lab04 | Phishing Investigation | ✅ |
+| Lab05 | Ransomware Investigation | ⏳ |
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Windows Event Log Analysis
+- Sysmon Investigation
+- Detection Engineering
+- Sigma Rule Development
+- KQL Queries
+- Splunk Searches
+- IOC Analysis
+- MITRE ATT&CK Mapping
+- Email Header Analysis
+- Threat Hunting
+
+---
+
+# 📜 Detection Content
+
+Current repository includes:
+
+- Sigma Rules
+- KQL Queries
+- Investigation Reports
+- IOC Documentation
+- MITRE ATT&CK Mapping
+- Detection Recommendations
+
+---
+
+# 🚀 Roadmap
+
+- [x] Lab01 – Network Reconnaissance
+- [x] Lab02 – PowerShell Detection
+- [x] Lab03 – LOLBins Detection
+- [x] Lab04 – Phishing Investigation
+- [ ] Lab05 – Ransomware Investigation
+- [ ] Lab06 – Windows Persistence
+- [ ] Lab07 – Credential Access Detection
+- [ ] Lab08 – Threat Hunting
+- [ ] Lab09 – Lateral Movement Detection
+- [ ] Lab10 – Incident Response Case Study
 
 ---
 
 # 🎯 Goal
 
-Build a practical Blue Team portfolio demonstrating real-world SOC investigation and detection engineering skills.
+Build a professional Blue Team portfolio demonstrating practical Detection Engineering and SOC investigation skills using real Windows logs, Sysmon telemetry, Sigma rules, and MITRE ATT&CK.

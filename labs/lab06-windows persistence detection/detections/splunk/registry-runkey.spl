@@ -1,0 +1,4 @@
+index=*
+EventCode=13
+TargetObject="*\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\*"
+| table _time host Image TargetObject Details User

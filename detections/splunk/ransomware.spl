@@ -1,0 +1,7 @@
+index=*
+(Image="*powershell.exe" OR
+ Image="*cmd.exe" OR
+ Image="*vssadmin.exe" OR
+ Image="*wbadmin.exe" OR
+ Image="*certutil.exe")
+| table _time host user Image CommandLine ParentImage

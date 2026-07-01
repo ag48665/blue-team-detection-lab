@@ -1,0 +1,35 @@
+title: Suspicious Ransomware Related Process Execution
+id: 0d9f7f63-4c0d-4a3d-bb75-3f7a6d4b6f11
+status: experimental
+description: Detects execution of processes commonly abused during ransomware attacks.
+author: Agata Gabara
+date: 2026-07-01
+
+references:
+  - https://attack.mitre.org/techniques/T1486/
+
+tags:
+  - attack.impact
+  - attack.t1486
+
+logsource:
+  product: windows
+  category: process_creation
+
+detection:
+  selection:
+    Image|endswith:
+      - '\powershell.exe'
+      - '\cmd.exe'
+      - '\certutil.exe'
+      - '\vssadmin.exe'
+      - '\wbadmin.exe'
+      - '\bcdedit.exe'
+
+  condition: selection
+
+falsepositives:
+  - Administrative maintenance
+  - Backup operations
+
+level: high

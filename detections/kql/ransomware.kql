@@ -1,0 +1,15 @@
+DeviceProcessEvents
+| where FileName in~ (
+    "powershell.exe",
+    "cmd.exe",
+    "certutil.exe",
+    "vssadmin.exe",
+    "wbadmin.exe",
+    "bcdedit.exe"
+)
+| project Timestamp,
+          DeviceName,
+          FileName,
+          ProcessCommandLine,
+          InitiatingProcessFileName,
+          AccountName

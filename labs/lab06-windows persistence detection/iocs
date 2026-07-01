@@ -1,0 +1,35 @@
+# Indicators of Compromise
+
+## Registry Key
+
+HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+
+---
+
+## Registry Value
+
+BlueTeamLab
+
+---
+
+## Executable
+
+notepad.exe
+
+---
+
+## Process
+
+powershell.exe
+
+---
+
+## Sysmon
+
+Event ID 13
+
+---
+
+## MITRE
+
+T1547.001

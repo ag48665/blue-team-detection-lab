@@ -1,0 +1,10 @@
+DeviceRegistryEvents
+| where RegistryKey has @"Software\Microsoft\Windows\CurrentVersion\Run"
+| project
+    Timestamp,
+    DeviceName,
+    InitiatingProcessFileName,
+    RegistryKey,
+    RegistryValueName,
+    RegistryValueData,
+    InitiatingProcessAccountName
