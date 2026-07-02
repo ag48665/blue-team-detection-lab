@@ -9,11 +9,11 @@
 
 ---
 
-## 📖 About
+# 📖 About
 
-This repository contains practical Blue Team and Detection Engineering labs built on real Windows telemetry.
+This repository contains practical **Blue Team**, **Detection Engineering**, and **SOC Investigation** labs built on real Windows telemetry.
 
-The goal is to demonstrate hands-on experience in:
+The objective is to demonstrate practical experience in:
 
 - Security Operations Center (SOC)
 - Detection Engineering
@@ -29,15 +29,30 @@ The goal is to demonstrate hands-on experience in:
 
 ---
 
-## 🛠️ Technologies
+# 📊 Repository Statistics
+
+- ✅ 6 Completed Detection Labs
+- ✅ Sigma Rules
+- ✅ Microsoft Sentinel (KQL) Queries
+- ✅ Splunk SPL Searches
+- ✅ IOC Documentation
+- ✅ MITRE ATT&CK Mapping
+- ✅ Investigation Reports
+- 🚧 Repository under continuous development
+
+---
+
+# 🛠️ Technologies
 
 - Windows 11
 - Sysmon
 - Event Viewer
 - PowerShell
+- Windows Registry
+- Microsoft Defender
 - Nmap
 - Sigma
-- KQL
+- Microsoft Sentinel (KQL)
 - Splunk SPL
 - MITRE ATT&CK
 
@@ -67,32 +82,49 @@ blue-team-detection-lab
 
 | Lab | Topic | Status |
 |------|-------|:------:|
-| Lab01 | Nmap Reconnaissance | ✅ |
+| Lab01 | Nmap Reconnaissance Detection | ✅ |
 | Lab02 | Suspicious PowerShell Detection | ✅ |
 | Lab03 | LOLBins Detection | ✅ |
 | Lab04 | Phishing Investigation | ✅ |
-| Lab05 | Ransomware Simulation | ✅ |
+| Lab05 | Ransomware Investigation | ✅ |
 | Lab06 | Windows Persistence Detection | ✅ |
-| Lab07 | Threat Hunting | ⏳ |
+| Lab07 | Credential Access Detection | ⏳ |
+| Lab08 | Threat Hunting | ⏳ |
+| Lab09 | Lateral Movement Detection | ⏳ |
+| Lab10 | Incident Response Case Study | ⏳ |
 
 
 ---
 
 # 📸 Lab Highlights
 
-## Lab02 – PowerShell Detection
+## Lab02 – Suspicious PowerShell Detection
+
+Sysmon Event ID 1 showing suspicious PowerShell execution.
 
 ![PowerShell Sysmon Event](labs/lab02-powershell/screenshots/03-sysmon-process-creation.png)
 
+---
+
 ## Lab03 – LOLBins Detection
+
+Detection of LOLBin execution using Sysmon telemetry.
 
 ![Certutil Sysmon Event](labs/lab03-lolbins/screenshots/01-sysmon-certutil-process-create.png)
 
-## Lab05 – Ransomware Simulation
+---
+
+## Lab05 – Ransomware Investigation
+
+Simulated ransomware activity with PowerShell and file modifications.
 
 ![Ransomware Simulation](labs/lab05-ransomware/screenshots/02-simulation.png)
 
+---
+
 ## Lab06 – Windows Persistence Detection
+
+Registry Run Key persistence detected using Sysmon Event ID 13.
 
 ![Run Key Detection](labs/lab06-windows%20persistence%20detection/screenshots/03-sysmon-runkey-details.png)
 
@@ -107,23 +139,39 @@ blue-team-detection-lab
 - Suspicious BITSAdmin Usage
 - Suspicious Rundll32 Execution
 - Suspicious Regsvr32 Execution
-- Ransomware Related Process Execution
+- Ransomware Process Execution
 - Registry Run Key Persistence
 
-## KQL Queries
+### Microsoft Sentinel (KQL)
 
 - PowerShell Detection
 - Certutil Detection
 - BITSAdmin Detection
 - Rundll32 Detection
-- Ransomware Process Detection
+- Ransomware Detection
 - Registry Run Key Detection
 
-## Splunk Searches
+### Splunk SPL
 
 - Suspicious PowerShell
-- Ransomware Process Activity
+- LOLBins Detection
+- Ransomware Activity
 - Registry Run Key Persistence
+
+---
+
+# 📚 Documentation
+
+Each completed lab includes:
+
+- Investigation Report
+- Detection Strategy
+- IOC Documentation
+- MITRE ATT&CK Mapping
+- Detection Recommendations
+- Screenshots
+- Detection Rules
+- Supporting Scripts (where applicable)
 
 ---
 
@@ -132,37 +180,27 @@ blue-team-detection-lab
 - Windows Event Log Analysis
 - Sysmon Investigation
 - Detection Engineering
-- Sigma Rule Development
-- KQL Queries
-- Splunk Searches
-- IOC Analysis
-- MITRE ATT&CK Mapping
-- Email Header Analysis
 - Threat Hunting
-
----
-
-# 📜 Detection Content
-
-Current repository includes:
-
-- Sigma Rules
-- KQL Queries
-- Investigation Reports
-- IOC Documentation
+- Incident Response
+- Registry Persistence Analysis
+- PowerShell Analysis
+- LOLBins Detection
+- IOC Analysis
+- Sigma Rule Development
+- Microsoft Sentinel (KQL)
+- Splunk SPL
 - MITRE ATT&CK Mapping
-- Detection Recommendations
 
 ---
 
 # 🚀 Roadmap
 
-- [x] Lab01 – Network Reconnaissance
-- [x] Lab02 – PowerShell Detection
+- [x] Lab01 – Nmap Reconnaissance Detection
+- [x] Lab02 – Suspicious PowerShell Detection
 - [x] Lab03 – LOLBins Detection
 - [x] Lab04 – Phishing Investigation
-- [ ] Lab05 – Ransomware Investigation
-- [ ] Lab06 – Windows Persistence
+- [x] Lab05 – Ransomware Investigation
+- [x] Lab06 – Windows Persistence Detection
 - [ ] Lab07 – Credential Access Detection
 - [ ] Lab08 – Threat Hunting
 - [ ] Lab09 – Lateral Movement Detection
@@ -172,4 +210,15 @@ Current repository includes:
 
 # 🎯 Goal
 
-Build a professional Blue Team portfolio demonstrating practical Detection Engineering and SOC investigation skills using real Windows logs, Sysmon telemetry, Sigma rules, and MITRE ATT&CK.
+Build a professional Blue Team portfolio demonstrating practical Security Operations Center (SOC), Detection Engineering, Threat Hunting, and Incident Response skills using real Windows telemetry, Sysmon logs, Sigma rules, Microsoft Sentinel (KQL), Splunk SPL, and MITRE ATT&CK.
+
+---
+
+## 👩‍💻 Author
+
+**Agata Gabara**
+
+Blue Team • SOC Analyst • Detection Engineering
+
+GitHub: https://github.com/ag48665
+
